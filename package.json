@@ -5,12 +5,13 @@
   "main": "dist/index.js",
   "scripts": {
     "tsc": "tsc",
-    "start": "pnpm run tsc && node ./dist/index.js"
+    "example1": "pnpm run tsc && node examples/example1.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.4.2"
-  }
+  },
+  "type": "module"
 }

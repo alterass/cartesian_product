@@ -1,9 +1,17 @@
-import cartesian_product from "../dist";
+import cartesian_product from "../dist/index.js";
 
-cartesian_product([
+const result = cartesian_product([
   [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
+  ["a", "b"],
 ]);
 
-console.log();
+console.log(result);
+//output
+//  [
+//   [ 1, 'a' ],
+//   [ 1, 'b' ],
+//   [ 2, 'a' ],
+//   [ 2, 'b' ],
+//   [ 3, 'a' ],
+//   [ 3, 'b' ]
+// ]
